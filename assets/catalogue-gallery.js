@@ -2,11 +2,13 @@
   const gallery = document.querySelector(".catalogue-gallery");
   if (typeof gallery?.showModal !== "function") return;
 
-  const links = [...document.querySelectorAll(".project-stages a, .more-projects-grid .stage-frame")];
+  const links = [...document.querySelectorAll(".project-stages a, .more-projects-grid .stage-frame, .review-photo-grid a")];
   const photos = links.map((link) => {
     const image = link.querySelector("img");
     const project = link.closest("article").querySelector("h2, h3").textContent;
-    const stage = link.closest(".stage")?.querySelector("h3").textContent ?? "Finished work";
+    const stage = link.closest(".stage")?.querySelector("h3").textContent
+      ?? link.closest(".review-photo-stage")?.getAttribute("aria-label")
+      ?? (link.closest(".review-photos") ? "Reviewer photo" : "Finished work");
     return {
       src: image.src,
       description: image.alt,
