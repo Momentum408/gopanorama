@@ -8,10 +8,11 @@
   <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="assets/work-catalogue.css">
+  <link rel="stylesheet" href="assets/portfolio-pages.css">
   <script src="navigation.js" defer></script>
   <script src="assets/catalogue-gallery.js" defer></script>
 </head>
-<body class="work-catalogue">
+<body class="portfolio-page work-catalogue">
   <a class="skip" href="#main">Skip to content</a>
   <header class="mast" id="top">
     <div class="bounds header-inner">
@@ -22,12 +23,19 @@
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="index.html#gardens">Gardens</a><a href="index.html#services">Services</a><a href="index.html#approach">Our approach</a><a href="index.html#questions">Questions</a><a href="reviews.html">Reviews</a><a href="before-and-after.html" aria-current="page">Work Catalogue</a></nav>
   </header>
   <main id="main">
-    <section class="portfolio-heading bounds" aria-labelledby="page-title">
-      <h1 id="page-title">Work <em>Catalogue</em></h1>
+    <section class="portfolio-heading portfolio-hero" aria-labelledby="page-title">
+      <div class="bounds portfolio-hero-inner">
+        <div class="portfolio-hero-copy">
+          <h1 id="page-title">Work <em>Catalogue.</em></h1>
+          <p>See how paths, patios and planted spaces came together.</p>
+          <a class="pill" href="#transformations">See the transformations</a>
+        </div>
+        <img src="assets/catalogue/backyard-oasis/outdoor-seating.jpg" alt="Backyard Oasis outdoor seating area" width="1000" height="750" fetchpriority="high">
+      </div>
     </section>
-<div class="bounds collection-body">
+<div class="bounds collection-body" id="transformations">
   <div class="collection-intro">
-    <p>Six transformations documented by reviewers of Go Panorama Landscaping, from paver paths and patios to planting and a hillside orchard.</p>
+    <div><h2>Before and after</h2><p>Six transformations documented by Go Panorama Landscaping customers.</p></div>
     <a class="pill dark" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2">Browse Yelp gallery</a>
   </div>
   <div class="project-entries"><article class="project-entry">
@@ -96,7 +104,7 @@
   </div></div>
     <p class="project-credit">Photos by Kiana F. on Yelp <span aria-hidden="true">·</span> <a class="source-link" href="reviews.html#review-kiana-f">Related review</a></p>
   </article></div>
-  <section class="more-projects" aria-labelledby="backyard-oasis-title">
+  <section class="more-projects featured-project" aria-labelledby="backyard-oasis-title">
     <article>
       <div class="project-entry-heading">
         <h2 id="backyard-oasis-title">Hardscape – Backyard Oasis</h2>

@@ -7,9 +7,12 @@
   <title>Client Reviews — Century Landscapes</title>
   <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/work-catalogue.css">
+  <link rel="stylesheet" href="assets/portfolio-pages.css">
   <script src="navigation.js" defer></script>
+  <script src="assets/catalogue-gallery.js" defer></script>
 </head>
-<body>
+<body class="portfolio-page review-page">
   <a class="skip" href="#main">Skip to content</a>
   <header class="mast" id="top">
     <div class="bounds header-inner">
@@ -20,13 +23,19 @@
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="index.html#gardens">Gardens</a><a href="index.html#services">Services</a><a href="index.html#approach">Our approach</a><a href="index.html#questions">Questions</a><a href="reviews.html" aria-current="page">Reviews</a><a href="before-and-after.html">Work Catalogue</a></nav>
   </header>
   <main id="main">
-    <section class="portfolio-heading bounds" aria-labelledby="page-title">
-      <p class="eyebrow light"><span class="rule"></span>Client feedback</p>
-      <h1 id="page-title">Client <em>reviews.</em></h1>
+    <section class="portfolio-heading portfolio-hero" aria-labelledby="page-title">
+      <div class="bounds portfolio-hero-inner">
+        <div class="portfolio-hero-copy">
+          <h1 id="page-title">Client <em>reviews.</em></h1>
+          <p>Read what homeowners said about their projects, with photos they shared on Yelp.</p>
+          <a class="pill" href="#recommended">Read client reviews</a>
+        </div>
+        <img src="assets/reviews/WondbRcjqND_e8mqyu23hg.jpg" alt="Finished curved paver walkway photographed by Eric O." fetchpriority="high">
+      </div>
     </section>
 <section class="bounds collection-body" aria-labelledby="recommended">
   <div class="collection-intro">
-    <div><h2 id="recommended">What clients said</h2><p>Summaries of all 15 recommended reviews on the Go Panorama Landscaping Yelp listing. The original reviews and reviewer photo galleries are linked below.</p></div>
+    <div><h2 id="recommended">What clients said</h2><p>Summaries of the 15 recommended Go Panorama Landscaping reviews on Yelp.</p></div>
     <a class="pill dark" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Go Panorama on Yelp</a>
   </div>
   <div class="review-grid"><article class="review-card" id="review-1">
@@ -35,6 +44,23 @@
     <p class="review-meta">Laurence P. <span aria-hidden="true">·</span> <time datetime="2026-07-29">Jul 29, 2026</time></p>
     <p>Laurence praised the crew’s organization, hard work and paver installation as they turned an asphalt area into a landscaped space.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Cracked asphalt patio" loading="lazy" decoding="async" class="art-row-0 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Compacted base and partially laid pavers" loading="lazy" decoding="async" class="art-row-0 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Finished patio with pavers and planting" loading="lazy" decoding="async" class="art-row-0 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-mg">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -53,6 +79,19 @@
       </div>
       <a class="source-link" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2?userid=Cmi0GGFHpfMiB2vpLQjW6Q">Photo gallery on Yelp</a>
     </details>
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Overgrown seasonal border" loading="lazy" decoding="async" class="art-row-2 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Pruning and mulching underway" loading="lazy" decoding="async" class="art-row-2 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-eric-o">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -63,18 +102,23 @@
       <summary>5 reviewer photos</summary>
       <div class="review-photo-stage" role="group" aria-label="Before">
         <p class="review-meta">Before</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/bpyIQC7yJlzsNIvxJqj_pQ.jpg"><img src="assets/reviews/bpyIQC7yJlzsNIvxJqj_pQ.jpg" alt="Project photo 5 from Eric O." loading="lazy" decoding="async"></a></li></ul>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/bpyIQC7yJlzsNIvxJqj_pQ.jpg"><img src="assets/reviews/bpyIQC7yJlzsNIvxJqj_pQ.jpg" alt="Project photo 5 from Eric O." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/nrrV6gDcSqvtj_wofkExHg.jpg"><img src="assets/reviews/nrrV6gDcSqvtj_wofkExHg.jpg" alt="Project photo 1 from Eric O." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <div class="review-photo-stage" role="group" aria-label="After">
         <p class="review-meta">After</p>
         <ul class="review-photo-grid"><li><a href="assets/reviews/WondbRcjqND_e8mqyu23hg.jpg"><img src="assets/reviews/WondbRcjqND_e8mqyu23hg.jpg" alt="Project photo 2 from Eric O." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/zpryE2yuSvzkhxVlvirVug.jpg"><img src="assets/reviews/zpryE2yuSvzkhxVlvirVug.jpg" alt="Project photo 3 from Eric O." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/r33tkKZl-PpkKRbqgIvLCA.jpg"><img src="assets/reviews/r33tkKZl-PpkKRbqgIvLCA.jpg" alt="Project photo 4 from Eric O." loading="lazy" decoding="async"></a></li></ul>
       </div>
-      <div class="review-photo-stage" role="group" aria-label="More reviewer photos">
-        <p class="review-meta">More reviewer photos</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/nrrV6gDcSqvtj_wofkExHg.jpg"><img src="assets/reviews/nrrV6gDcSqvtj_wofkExHg.jpg" alt="Project photo 1 from Eric O." loading="lazy" decoding="async"></a></li></ul>
-      </div>
       <a class="source-link" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2?userid=oQazwydi_41dmcrzEGut0g">Photo gallery on Yelp</a>
     </details>
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Soil and drip line beside a partly laid stone path" loading="lazy" decoding="async" class="art-row-1 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-sc-h">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -87,13 +131,17 @@
         <p class="review-meta">Before</p>
         <ul class="review-photo-grid"><li><a href="assets/reviews/2CDHxreIdOIetDVLJED4cA.jpg"><img src="assets/reviews/2CDHxreIdOIetDVLJED4cA.jpg" alt="Project photo 1 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/43UtzLGsEHfaupBpY-17nw.jpg"><img src="assets/reviews/43UtzLGsEHfaupBpY-17nw.jpg" alt="Project photo 7 from SC H." loading="lazy" decoding="async"></a></li></ul>
       </div>
+      <div class="review-photo-stage" role="group" aria-label="In progress">
+        <p class="review-meta">In progress</p>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/BwL-ReXuSbAdDOHTYLN1Yg.jpg"><img src="assets/reviews/BwL-ReXuSbAdDOHTYLN1Yg.jpg" alt="Project photo 2 from SC H." loading="lazy" decoding="async"></a></li></ul>
+      </div>
       <div class="review-photo-stage" role="group" aria-label="After">
         <p class="review-meta">After</p>
         <ul class="review-photo-grid"><li><a href="assets/reviews/TvnXxz73sL8Xc2VluwK6NA.jpg"><img src="assets/reviews/TvnXxz73sL8Xc2VluwK6NA.jpg" alt="Project photo 3 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/xRCwnPFgTAP6eb8-a9agXA.jpg"><img src="assets/reviews/xRCwnPFgTAP6eb8-a9agXA.jpg" alt="Project photo 4 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/1PxvfKr4TMtWvYKDBRxVBg.jpg"><img src="assets/reviews/1PxvfKr4TMtWvYKDBRxVBg.jpg" alt="Project photo 5 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/PGjDDRFwB0otDDV2u9mLSA.jpg"><img src="assets/reviews/PGjDDRFwB0otDDV2u9mLSA.jpg" alt="Project photo 6 from SC H." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <div class="review-photo-stage" role="group" aria-label="More reviewer photos">
         <p class="review-meta">More reviewer photos</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/BwL-ReXuSbAdDOHTYLN1Yg.jpg"><img src="assets/reviews/BwL-ReXuSbAdDOHTYLN1Yg.jpg" alt="Project photo 2 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/OeBrQSuHY9HaM66aJkYYbg.jpg"><img src="assets/reviews/OeBrQSuHY9HaM66aJkYYbg.jpg" alt="Project photo 8 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/7K42EE-6NcoZff27FFw0rg.jpg"><img src="assets/reviews/7K42EE-6NcoZff27FFw0rg.jpg" alt="Project photo 9 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/pwQJap7YQKYdnsuN3pdEyA.jpg"><img src="assets/reviews/pwQJap7YQKYdnsuN3pdEyA.jpg" alt="Project photo 10 from SC H." loading="lazy" decoding="async"></a></li></ul>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/OeBrQSuHY9HaM66aJkYYbg.jpg"><img src="assets/reviews/OeBrQSuHY9HaM66aJkYYbg.jpg" alt="Project photo 8 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/7K42EE-6NcoZff27FFw0rg.jpg"><img src="assets/reviews/7K42EE-6NcoZff27FFw0rg.jpg" alt="Project photo 9 from SC H." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/pwQJap7YQKYdnsuN3pdEyA.jpg"><img src="assets/reviews/pwQJap7YQKYdnsuN3pdEyA.jpg" alt="Project photo 10 from SC H." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <a class="source-link" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2?userid=-HJGX3DeeYNMhVYNVANmFw">Photo gallery on Yelp</a>
     </details>
@@ -109,13 +157,17 @@
         <p class="review-meta">Before</p>
         <ul class="review-photo-grid"><li><a href="assets/reviews/BtnJY3MmZ8cjE8u92jfaRA.jpg"><img src="assets/reviews/BtnJY3MmZ8cjE8u92jfaRA.jpg" alt="Project photo 5 from Matt P." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/QAgOWAwkdwpC6Wj0UK_C9A.jpg"><img src="assets/reviews/QAgOWAwkdwpC6Wj0UK_C9A.jpg" alt="Project photo 6 from Matt P." loading="lazy" decoding="async"></a></li></ul>
       </div>
+      <div class="review-photo-stage" role="group" aria-label="In progress">
+        <p class="review-meta">In progress</p>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/CaEUtegDN18CzCIhOKqbFg.jpg"><img src="assets/reviews/CaEUtegDN18CzCIhOKqbFg.jpg" alt="Project photo 1 from Matt P." loading="lazy" decoding="async"></a></li></ul>
+      </div>
       <div class="review-photo-stage" role="group" aria-label="After">
         <p class="review-meta">After</p>
         <ul class="review-photo-grid"><li><a href="assets/reviews/PlSPKdEXkZb5cMLP0fv5qA.jpg"><img src="assets/reviews/PlSPKdEXkZb5cMLP0fv5qA.jpg" alt="Project photo 2 from Matt P." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/uPpsWqLs4srnh_nOXHs4Og.jpg"><img src="assets/reviews/uPpsWqLs4srnh_nOXHs4Og.jpg" alt="Project photo 3 from Matt P." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <div class="review-photo-stage" role="group" aria-label="More reviewer photos">
         <p class="review-meta">More reviewer photos</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/CaEUtegDN18CzCIhOKqbFg.jpg"><img src="assets/reviews/CaEUtegDN18CzCIhOKqbFg.jpg" alt="Project photo 1 from Matt P." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/8Rm8hZQu92Uf0C_yuFbwkw.jpg"><img src="assets/reviews/8Rm8hZQu92Uf0C_yuFbwkw.jpg" alt="Project photo 4 from Matt P." loading="lazy" decoding="async"></a></li></ul>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/8Rm8hZQu92Uf0C_yuFbwkw.jpg"><img src="assets/reviews/8Rm8hZQu92Uf0C_yuFbwkw.jpg" alt="Project photo 4 from Matt P." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <a class="source-link" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2?userid=1bMEJfJqbl6SvfhZyFVJXg">Photo gallery on Yelp</a>
     </details>
@@ -129,14 +181,23 @@
       <summary>5 reviewer photos</summary>
       <div class="review-photo-stage" role="group" aria-label="After">
         <p class="review-meta">After</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/47RhZWF1Pa_INECu_rZzAQ.jpg"><img src="assets/reviews/47RhZWF1Pa_INECu_rZzAQ.jpg" alt="Project photo 1 from Jen L." loading="lazy" decoding="async"></a></li></ul>
-      </div>
-      <div class="review-photo-stage" role="group" aria-label="More reviewer photos">
-        <p class="review-meta">More reviewer photos</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/M-kVOwcHVr8X3X41TcB2LA.jpg"><img src="assets/reviews/M-kVOwcHVr8X3X41TcB2LA.jpg" alt="Project photo 2 from Jen L." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/PkfqX61CArMjwhl6TlcDwg.jpg"><img src="assets/reviews/PkfqX61CArMjwhl6TlcDwg.jpg" alt="Project photo 3 from Jen L." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/K8dzwvdcbsaWS5Ka9OSfng.jpg"><img src="assets/reviews/K8dzwvdcbsaWS5Ka9OSfng.jpg" alt="Project photo 4 from Jen L." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/xKdydufMz306yXwKEKyHMg.jpg"><img src="assets/reviews/xKdydufMz306yXwKEKyHMg.jpg" alt="Project photo 5 from Jen L." loading="lazy" decoding="async"></a></li></ul>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/47RhZWF1Pa_INECu_rZzAQ.jpg"><img src="assets/reviews/47RhZWF1Pa_INECu_rZzAQ.jpg" alt="Project photo 1 from Jen L." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/M-kVOwcHVr8X3X41TcB2LA.jpg"><img src="assets/reviews/M-kVOwcHVr8X3X41TcB2LA.jpg" alt="Project photo 2 from Jen L." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/PkfqX61CArMjwhl6TlcDwg.jpg"><img src="assets/reviews/PkfqX61CArMjwhl6TlcDwg.jpg" alt="Project photo 3 from Jen L." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/K8dzwvdcbsaWS5Ka9OSfng.jpg"><img src="assets/reviews/K8dzwvdcbsaWS5Ka9OSfng.jpg" alt="Project photo 4 from Jen L." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/xKdydufMz306yXwKEKyHMg.jpg"><img src="assets/reviews/xKdydufMz306yXwKEKyHMg.jpg" alt="Project photo 5 from Jen L." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <a class="source-link" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2?userid=nmXsUQeMGfAfOKhZ9w2eAg">Photo gallery on Yelp</a>
     </details>
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Bare post-construction yard" loading="lazy" decoding="async" class="art-row-2 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Path paving and turf preparation underway" loading="lazy" decoding="async" class="art-row-2 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-richard-s">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -147,18 +208,23 @@
       <summary>4 reviewer photos</summary>
       <div class="review-photo-stage" role="group" aria-label="In progress">
         <p class="review-meta">In progress</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/DXX0UFBATSKCadAFB0ee5A.jpg"><img src="assets/reviews/DXX0UFBATSKCadAFB0ee5A.jpg" alt="Project photo 2 from Richard S." loading="lazy" decoding="async"></a></li></ul>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/DXX0UFBATSKCadAFB0ee5A.jpg"><img src="assets/reviews/DXX0UFBATSKCadAFB0ee5A.jpg" alt="Project photo 2 from Richard S." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/jXiNtwV07_ykW8DBgF_AWw.jpg"><img src="assets/reviews/jXiNtwV07_ykW8DBgF_AWw.jpg" alt="Project photo 1 from Richard S." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <div class="review-photo-stage" role="group" aria-label="After">
         <p class="review-meta">After</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/Pr3Yc4AOGTJWydANgoCvFg.jpg"><img src="assets/reviews/Pr3Yc4AOGTJWydANgoCvFg.jpg" alt="Project photo 4 from Richard S." loading="lazy" decoding="async"></a></li></ul>
-      </div>
-      <div class="review-photo-stage" role="group" aria-label="More reviewer photos">
-        <p class="review-meta">More reviewer photos</p>
-        <ul class="review-photo-grid"><li><a href="assets/reviews/jXiNtwV07_ykW8DBgF_AWw.jpg"><img src="assets/reviews/jXiNtwV07_ykW8DBgF_AWw.jpg" alt="Project photo 1 from Richard S." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/Uam7IWQxPHuq0FFFuzUPhQ.jpg"><img src="assets/reviews/Uam7IWQxPHuq0FFFuzUPhQ.jpg" alt="Project photo 3 from Richard S." loading="lazy" decoding="async"></a></li></ul>
+        <ul class="review-photo-grid"><li><a href="assets/reviews/Pr3Yc4AOGTJWydANgoCvFg.jpg"><img src="assets/reviews/Pr3Yc4AOGTJWydANgoCvFg.jpg" alt="Project photo 4 from Richard S." loading="lazy" decoding="async"></a></li><li><a href="assets/reviews/Uam7IWQxPHuq0FFFuzUPhQ.jpg"><img src="assets/reviews/Uam7IWQxPHuq0FFFuzUPhQ.jpg" alt="Project photo 3 from Richard S." loading="lazy" decoding="async"></a></li></ul>
       </div>
       <a class="source-link" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2?userid=1LK4js5Tk1tW-MCi2x_YZg">Photo gallery on Yelp</a>
     </details>
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Bare yard beside a house" loading="lazy" decoding="async" class="art-row-1 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-8">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -166,6 +232,23 @@
     <p class="review-meta">Steve D. <span aria-hidden="true">·</span> <time datetime="2024-07-04">Jul 4, 2024</time></p>
     <p>Steve described new soil for planters, stone for a path and repairs to existing irrigation. He praised the crew’s responsiveness and care in fixing earlier work.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Bare planters and weathered stone path" loading="lazy" decoding="async" class="art-row-1 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Soil and drip line beside a partly laid stone path" loading="lazy" decoding="async" class="art-row-1 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Planted beds beside a finished stone path" loading="lazy" decoding="async" class="art-row-1 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-9">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -173,6 +256,23 @@
     <p class="review-meta">Vijay K. <span aria-hidden="true">·</span> <time datetime="2024-05-31">May 31, 2024</time></p>
     <p>Vijay reported that the crew refreshed the landscape with new plants, soil treatment, lighting and irrigation. The team handled materials and stayed within budget.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Sparse border beside a lawn" loading="lazy" decoding="async" class="art-row-2 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Drip tubing and path lights during installation" loading="lazy" decoding="async" class="art-row-2 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Replanted border with installed path lighting" loading="lazy" decoding="async" class="art-row-2 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-kiana-f">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -191,6 +291,15 @@
       </div>
       <a class="source-link" href="https://www.yelp.com/biz_photos/go-panorama-landscaping-san-jose-2?userid=AI_cBN0mST_dKT7RnynvDA">Photo gallery on Yelp</a>
     </details>
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/hardscape-and-irrigation.jpg" alt="Drip tubing and path lights during installation" loading="lazy" decoding="async" class="art-row-2 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article><article class="review-card" id="review-11">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -198,6 +307,23 @@
     <p class="review-meta">Li J. <span aria-hidden="true">·</span> <time datetime="2023-11-26">Nov 26, 2023</time></p>
     <p>The crew replaced a front lawn with stone, plants and hardscaping. Li appreciated the advice on materials, budget awareness and on-time finish.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Front lawn with sparse planting" loading="lazy" decoding="async" class="art-row-0 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Lawn removal and gravel installation" loading="lazy" decoding="async" class="art-row-0 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Drought-tolerant plants and decorative stone" loading="lazy" decoding="async" class="art-row-0 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2?start=10">Read on Yelp</a>
   </article><article class="review-card" id="review-12">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -205,6 +331,23 @@
     <p class="review-meta">Eric M. <span aria-hidden="true">·</span> <time datetime="2024-01-09">Jan 9, 2024</time></p>
     <p>Eric was pleased with shrub trimming and lawn mowing and planned to hire the crew again for work around backyard trees.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Overgrown lawn and shrubs" loading="lazy" decoding="async" class="art-row-1 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Mowing and pruning underway" loading="lazy" decoding="async" class="art-row-1 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Trimmed shrubs and freshly mowed lawn" loading="lazy" decoding="async" class="art-row-1 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2?start=10">Read on Yelp</a>
   </article><article class="review-card" id="review-13">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -212,6 +355,23 @@
     <p class="review-meta">Dorit S. <span aria-hidden="true">·</span> <time datetime="2024-09-05">Sep 5, 2024</time></p>
     <p>Dorit described knowing Miguel for more than 20 years and praised his reliability, fair pricing and landscaping work.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Overgrown seasonal border" loading="lazy" decoding="async" class="art-row-2 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Pruning and mulching underway" loading="lazy" decoding="async" class="art-row-2 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/maintenance-and-planting.jpg" alt="Tidied perennial border with refreshed mulch" loading="lazy" decoding="async" class="art-row-2 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2?start=10">Read on Yelp</a>
   </article><article class="review-card" id="review-14">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -219,6 +379,23 @@
     <p class="review-meta">Evelyn K. <span aria-hidden="true">·</span> <time datetime="2023-11-01">Nov 1, 2023</time></p>
     <p>The crew installed sprinklers and controls for both lawns, removed an old tree and added planting. Evelyn praised the communication, pricing and cleanup.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Front lawn with an established tree" loading="lazy" decoding="async" class="art-row-0 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Irrigation trenches in an exposed front yard" loading="lazy" decoding="async" class="art-row-0 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Planted front yard with sprinklers running" loading="lazy" decoding="async" class="art-row-0 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2?start=10">Read on Yelp</a>
   </article><article class="review-card" id="review-15">
     <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
@@ -226,6 +403,23 @@
     <p class="review-meta">Leo T. <span aria-hidden="true">·</span> <time datetime="2023-10-02">Oct 2, 2023</time></p>
     <p>Leo described one large job and several smaller ones. He praised the crew’s attention to detail and reasonable pricing.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Bare yard beside a house" loading="lazy" decoding="async" class="art-row-1 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Paver base being compacted" loading="lazy" decoding="async" class="art-row-1 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Completed paver patio beside planted beds" loading="lazy" decoding="async" class="art-row-1 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/biz/go-panorama-landscaping-san-jose-2?start=10">Read on Yelp</a>
   </article></div>
   <section class="extra-review" aria-labelledby="other-review">
@@ -237,11 +431,43 @@
     <p class="review-meta">Rachel Han <span aria-hidden="true">·</span> <time datetime="2026-05-18">May 18, 2026</time></p>
     <p>After a home rebuild, the crew installed a concrete patio, paths, steps and synthetic turf in back, plus irrigation and planting in front. Rachel praised the detailed plan, the crew’s care and their responsiveness during the roughly three-week project.</p>
     
+    <div class="review-illustrations" role="group" aria-label="AI-generated stage illustrations">
+      <p class="review-meta">AI-generated illustrations of typical work stages</p>
+      <div class="review-illustration-grid">
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Bare post-construction yard" loading="lazy" decoding="async" class="art-row-2 art-col-0"></div>
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Path paving and turf preparation underway" loading="lazy" decoding="async" class="art-row-2 art-col-1"></div>
+          <figcaption>In progress</figcaption>
+        </figure>
+        <figure class="review-illustration">
+          <div class="review-illustration-image"><img src="assets/review-illustrations/outdoor-rebuilds.jpg" alt="Finished concrete path, turf and planting" loading="lazy" decoding="async" class="art-row-2 art-col-2"></div>
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
     <a class="source-link" href="https://www.yelp.com/not_recommended_reviews/go-panorama-landscaping-san-jose-2">Read on Yelp</a>
   </article>
   </section>
 </section>
   </main>
+  <dialog class="catalogue-gallery" aria-labelledby="catalogue-gallery-title">
+    <div class="catalogue-gallery-bar">
+      <h2 id="catalogue-gallery-title">Project photos</h2>
+      <button class="gallery-close" type="button" autofocus>Close</button>
+    </div>
+    <figure class="gallery-figure">
+      <div class="gallery-photo-area"><img class="gallery-photo" alt=""><p class="gallery-error" hidden>Photo unavailable. Try another photo.</p></div>
+      <figcaption class="gallery-caption" aria-live="polite"></figcaption>
+    </figure>
+    <div class="catalogue-gallery-bar gallery-navigation">
+      <button class="gallery-prev" type="button">Previous</button>
+      <span class="gallery-count"></span>
+      <button class="gallery-next" type="button">Next</button>
+    </div>
+  </dialog>
   <footer><div class="bounds footer-wrap"><a href="index.html" aria-label="Century Landscapes home"><img src="assets/wordmark.webp" width="192" height="65" alt="Century Landscapes"></a><p>© 2026 Century Landscapes</p><a class="footer-email" href="mailto:artur@momentum-tennis.com">artur@momentum-tennis.com</a><a class="backtop" href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
 </body>
 </html>
