@@ -1,0 +1,18 @@
+Create one continuous, photorealistic 15-second reverse flyout of the Terrace House. Output 16:9 at 24 fps. Read the supplied six-frame storyboard from left to right across each row. Use the six images as camera-position anchors at 0, 3, 5, 8, 11 and 15 seconds. Start six metres inside the cedar house with the open doors behind the camera. Aim at the fireplace as the camera backs through the doorway. Once outside, keep the open doorway in view.
+
+0–3 seconds | Fireplace to living room
+Open tight on the lit fireplace and long pale stone hearth. A timber post fills the near left edge, a vase of olive branches sits to the left of the fire, and the corner of a timber table enters from the right. Dolly backward at eye level. The post slides past as the cream sofa appears on the left and the dining chairs and pendant lights appear on the right. Afternoon light crosses the oak floor beneath an exposed cedar ceiling.
+
+3–5 seconds | Through the doorway
+Continue backward through the already-open glass doors. The dark jambs enter from both sides and frame the distant fireplace. Cross the threshold in one smooth move. The interior oak floor recedes and the pale limestone upper landing enters the foreground. Hold the fireplace in view as in frame three.
+
+5–8 seconds | Upper landing to limestone steps
+Back across the landing and out above the first flight, looking uphill at the open doorway. Bring the fronts of the broad limestone treads into view from below. Low rough-faced stone walls border the steps. Purple lavender, silver sage and feathery golden grasses rise on both sides.
+
+8–11 seconds | The lower bend
+Follow the bend of the staircase backward toward the lower landing. Drift just enough sideways to match frame five: the stair climbs through the left half of the image and the house sits upper right. A broad oak canopy frames the left edge and a mature silver olive frames the right. Nearby grass heads cross the lens faster than the cedar façade moves in the distance.
+
+11–15 seconds | The elevated terrace reveal
+Continue retreating and rise into an oblique view. Tilt gently downward until the cedar roof and single chimney, open doorway, upper landing, curved limestone stairs and two planted terrace levels read together. Match frame six by 13.5 seconds, ease to a complete stop and hold that composition through the final frame.
+
+Use a fixed 28 mm lens, consistent warm late-afternoon side light and a slight breeze in the grasses. Preserve the exact locations of the fireplace, doorway, staircase, stone walls, oak and olive. Render a single full-screen view throughout. Exclude cuts, digital zooms, captions, logos, watermarks, panel borders and end cards.
