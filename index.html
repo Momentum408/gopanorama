@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3eb">
+  <meta name="description" content="Explore gardens, stonework and outdoor living with Century Landscapes. Find a design direction and shape a brief for your own landscape.">
+  <title>Century Landscapes — Landscape Design &amp; Build</title>
+  <link rel="icon" href="assets/icon.png">
+  <link rel="preload" as="image" href="assets/film-poster.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="navigation.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="mast" id="top">
+    <div class="bounds header-inner">
+      <a class="brand" href="#top" aria-label="Century Landscapes home"><img src="assets/wordmark.webp" alt="Century Landscapes" width="648" height="220"></a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#gardens">Gardens</a><a href="#services">Services</a><a href="#approach">Our approach</a><a href="reviews.html">Reviews</a><a href="before-and-after.html">Work Catalogue</a></nav>
+      <div class="head-actions"><button class="pill dark start-project">Start a project <span aria-hidden="true">↗</span></button><button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><i></i><i></i></button></div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#gardens">Gardens</a><a href="#services">Services</a><a href="#approach">Our approach</a><a href="#questions">Questions</a><a href="reviews.html">Reviews</a><a href="before-and-after.html">Work Catalogue</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" data-film="logo" aria-labelledby="hero-title">
+      <img class="hero-image active" src="assets/terrace.webp" alt="" width="1024" height="510">
+      <div class="logo-backdrop" aria-hidden="true"></div>
+      <video class="reel-shot logo-shot active" data-title="Century Landscapes" src="assets/century-construction.mp4" data-rate="1" muted playsinline preload="auto" poster="assets/film-poster.webp" aria-hidden="true"></video>
+      <video class="reel-shot" data-title="Laying fresh sod" data-src="https://videos.pexels.com/video-files/5492766/5492766-uhd_2560_1440_30fps.mp4" data-rate="0.65" data-start="0.3" data-stop="4.3" muted playsinline preload="none" aria-hidden="true"></video>
+      <video class="reel-shot" data-title="Planting a young tree" data-src="https://videos.pexels.com/video-files/8544142/8544142-hd_1920_1080_25fps.mp4" data-rate="0.70" data-start="1" data-stop="5.3" muted playsinline preload="none" aria-hidden="true"></video>
+      <video class="reel-shot" data-title="Setting the pavers" data-src="https://cdn.pixabay.com/video/2023/05/18/163640-828210290_large.mp4" data-rate="0.65" data-start="0.4" data-stop="4.4" muted playsinline preload="none" aria-hidden="true"></video>
+      <video class="reel-shot" data-title="The finished courtyard" data-src="https://videos.pexels.com/video-files/18531282/18531282-uhd_2560_1440_60fps.mp4" data-rate="0.50" data-start="0.5" data-stop="3.8" muted playsinline preload="none" aria-hidden="true"></video>
+      <div class="bounds hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow light"><span class="rule"></span> Landscape design &amp; build</p>
+          <h1 id="hero-title">At home,<br><em>outdoors.</em></h1>
+          <p class="hero-intro">Gardens, stonework and outdoor rooms shaped around the way you live.</p>
+          <div class="hero-actions"><a class="pill ivory" href="#gardens">Explore the gardens <span aria-hidden="true">↗</span></a><button id="open-film" class="film-link"><span class="play-icon" aria-hidden="true">▶</span> Replay logo film</button></div>
+        </div>
+        <div class="hero-foot">
+          <a class="scroll-cue" href="#yard-build" aria-label="Scroll to explore the garden design"><span class="cue-arrow" aria-hidden="true">↓</span> Scroll to explore</a>
+          <div class="slide-nav" role="group" aria-label="Landscape film controls">
+            <div class="slide-info"><span id="slide-caption">Century Landscapes</span><span class="count"><b id="slide-index">01</b> / 05</span></div>
+            <button id="slide-motion" class="round" aria-label="Pause homepage reel"><span aria-hidden="true">Ⅱ</span></button><button class="round slide-prev" aria-label="Previous film shot">←</button><button class="round slide-next" aria-label="Next film shot">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="yard-scroll" id="yard-build" data-scroll-film data-auto-film="gardens" aria-labelledby="yard-title">
+      <div class="yard-pin" data-pin>
+        <header class="yard-heading"><h2 id="yard-title">Watch a garden <em>take shape.</em></h2></header>
+        <div class="yard-stage">
+          <video id="yard-film" data-film-video data-src="assets/garden-design-to-build.mp4" muted playsinline preload="none" poster="assets/garden-design-sketch.webp" aria-label="An annotated garden sketch becomes a rendering, then a garden with a curved stone path, lawn and timber pergola." width="960" height="960"></video>
+        </div>
+        <div class="yard-controls">
+          <a class="scroll-cue" href="#terrace-garden-tour-film" aria-label="Keep scrolling to the Terrace House"><span class="cue-arrow" aria-hidden="true">↓</span> Keep scrolling</a>
+          <label class="yard-slider"><span class="sr-only">Garden design and construction progress</span><input id="yard-range" data-film-range type="range" min="0" max="347" step="1" value="0" aria-valuetext="Initial garden sketch"></label>
+          <button class="yard-play" id="yard-play" data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="collection gallery" id="gardens" aria-labelledby="gardens-title">
+      <h2 class="sr-only" id="gardens-title">Garden tours</h2>
+      <article class="gallery-film" id="terrace-garden-tour-film" data-scroll-film data-auto-film="gardens" aria-labelledby="terrace-garden-home-title">
+        <div class="gallery-pin" data-pin>
+          <header class="gallery-heading">
+            <div><p class="card-type">Terraced garden</p><h3 id="terrace-garden-home-title">The Terrace House</h3></div>
+            <a class="gallery-more" id="terrace-garden-card" href="#terrace-garden-build" aria-label="View more about The Terrace House">View more <span aria-hidden="true">↗</span></a>
+          </header>
+          <div class="gallery-screen"><video id="terrace-garden-film" data-film-video data-src="assets/terrace-house-walk.mp4" poster="assets/terrace-house-opening.webp" width="1280" height="720" muted playsinline preload="none" aria-label="Pull back from a cedar living room over limestone terraces, olive trees and lavender."></video></div>
+          <div class="gallery-controls">
+            <a class="scroll-cue" href="#dining-courtyard-tour-film" aria-label="Keep scrolling to the Dining Courtyard"><span class="cue-arrow" aria-hidden="true">↓</span> Keep scrolling</a>
+            <label><span class="sr-only">The Terrace House film position</span><input data-film-range type="range" min="0" max="1000" value="0" aria-valuetext="Start of film"></label>
+            <button data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+          </div>
+        </div>
+      </article>
+      <article class="gallery-film" id="dining-courtyard-tour-film" data-scroll-film data-auto-film="gardens" aria-labelledby="dining-courtyard-home-title">
+        <div class="gallery-pin" data-pin>
+          <header class="gallery-heading">
+            <div><p class="card-type">Outdoor dining</p><h3 id="dining-courtyard-home-title">The Dining Courtyard</h3></div>
+            <a class="gallery-more" id="dining-courtyard-card" href="#dining-courtyard-build" aria-label="View more about The Dining Courtyard">View more <span aria-hidden="true">↗</span></a>
+          </header>
+          <div class="gallery-screen"><video id="dining-courtyard-film" data-film-video data-src="assets/dining-courtyard-walk.mp4" poster="assets/dining-doorway.webp" width="1112" height="834" muted playsinline preload="none" aria-label="Move from the dining room past the pergola and olive tree to the curved stone bench."></video></div>
+          <div class="gallery-controls">
+            <a class="scroll-cue" href="#forest-house-tour-film" aria-label="Keep scrolling to the Forest House"><span class="cue-arrow" aria-hidden="true">↓</span> Keep scrolling</a>
+            <label><span class="sr-only">The Dining Courtyard film position</span><input data-film-range type="range" min="0" max="1000" value="0" aria-valuetext="Start of film"></label>
+            <button data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+          </div>
+        </div>
+      </article>
+      <article class="gallery-film" id="forest-house-tour-film" data-scroll-film data-auto-film="gardens" aria-labelledby="forest-house-home-title">
+        <div class="gallery-pin" data-pin>
+          <header class="gallery-heading">
+            <div><p class="card-type">Woodland &amp; water</p><h3 id="forest-house-home-title">The Forest House</h3></div>
+            <a class="gallery-more" id="forest-house-card" href="#forest-house-build" aria-label="View more about The Forest House">View more <span aria-hidden="true">↗</span></a>
+          </header>
+          <div class="gallery-screen"><video id="forest-house-film" data-film-video data-src="assets/forest-house-walk.mp4" poster="assets/forest-doorway.webp" width="1280" height="720" muted playsinline preload="none" aria-label="Rise from the cedar house over a woodland lawn and reflecting pond."></video></div>
+          <div class="gallery-controls">
+            <a class="scroll-cue" href="#values-film" aria-label="Keep scrolling to our values"><span class="cue-arrow" aria-hidden="true">↓</span> Keep scrolling</a>
+            <label><span class="sr-only">The Forest House film position</span><input data-film-range type="range" min="0" max="1000" value="0" aria-valuetext="Start of film"></label>
+            <button data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="gallery-film" id="values-film" data-scroll-film data-auto-film="gardens" aria-labelledby="values-title">
+      <div class="gallery-pin" data-pin>
+        <h2 class="sr-only" id="values-title">The values of Century Landscapes</h2>
+        <div class="gallery-screen"><video id="values-logo-film" data-film-video data-src="assets/values-and-logo.mp4" poster="assets/values-opening.webp" width="1280" height="720" muted playsinline preload="none" aria-label="Meticulous, dependable, knowledgeable and collaborative, followed by the complete Century Landscapes logo."></video></div>
+        <div class="gallery-controls">
+          <a class="scroll-cue" href="#services"><span class="cue-arrow" aria-hidden="true">↓</span> Explore services</a>
+          <label><span class="sr-only">Values and logo animation position</span><input data-film-range type="range" min="0" max="1000" value="0" aria-valuetext="Start of film"></label>
+          <button data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services" aria-labelledby="services-title"><div class="bounds service-grid">
+      <div class="services-heading"><p class="eyebrow light"><span class="rule"></span> What we do</p><h2 id="services-title">From the<br>ground <em>up.</em></h2><p>Every outdoor space has a living side and a built side. Good design brings the two together.</p></div>
+      <div class="service-list">
+        <details open><summary>Landscape design <span class="plus" aria-hidden="true"></span></summary><p>Plan where the shade falls, how people move through the garden, and what you want to see from inside. Those choices guide the layout and planting palette.</p></details>
+        <details><summary>Landscape construction <span class="plus" aria-hidden="true"></span></summary><p>Stone steps, walls, paths and terraces give a garden its shape. Materials, changes in level and drainage need to work together from the start.</p></details>
+        <details><summary>Outdoor living <span class="plus" aria-hidden="true"></span></summary><p>Make room for the things you already love doing. A shaded table near the kitchen, a reading bench or an evening gathering spot can anchor the whole plan.</p></details>
+        <a class="scroll-cue section-cue" href="#approach"><span class="cue-arrow" aria-hidden="true">↓</span> Our approach</a>
+      </div>
+    </div></section>
+    <section class="approach bounds section-space" id="approach" aria-labelledby="approach-title">
+      <div class="approach-photo"><img src="assets/courtyard.webp" loading="lazy" alt="Slatted timber casts patterned shade across a garden courtyard"></div>
+      <div class="approach-copy"><p class="eyebrow"><span class="rule"></span> Our approach</p><h2 id="approach-title">How a garden<br><em>takes shape.</em></h2>
+      <ol class="process">
+        <li><div><h3>Walk the site</h3><p>Start with the slope, the sun, the trees worth keeping and the way you use your yard.</p></div></li>
+        <li><div><h3>Draw the plan</h3><p>Work out the paths, planting and materials, then review the scope before the build.</p></div></li>
+        <li><div><h3>Build and plant</h3><p>Set the levels and stonework first. Bring in soil, irrigation and planting as each area is ready.</p></div></li>
+        <li><div><h3>Walk it together</h3><p>Review the finished space and talk through watering and care as the garden settles in.</p></div></li>
+      </ol>
+      <a class="scroll-cue section-cue" href="#your-landscape"><span class="cue-arrow" aria-hidden="true">↓</span> Your project</a></div>
+    </section>
+    <section class="project-band" id="your-landscape"><img src="assets/meadow.webp" loading="lazy" alt=""><div class="bounds"><p class="eyebrow light"><span class="rule"></span> Your landscape</p><h2>What would you love<br>to do <em>outside?</em></h2><button class="pill ivory start-project">Start a project <span aria-hidden="true">↗</span></button><a class="scroll-cue project-cue" href="#questions"><span class="cue-arrow" aria-hidden="true">↓</span> Common questions</a></div></section>
+    <section class="faq bounds section-space" id="questions"><h2>Common questions</h2><div>
+      <details><summary>What should I bring to a first conversation?<span class="plus" aria-hidden="true"></span></summary><p>A few photos, rough measurements and a short wish list are a good start. Include anything you want to keep, such as a mature tree or a favorite view.</p></details>
+      <details><summary>Can the garden be built in stages?<span class="plus" aria-hidden="true"></span></summary><p>A whole-site plan can account for future phases. Think about access, drainage and irrigation early so the first phase leaves room for the next.</p></details>
+      <details><summary>What affects the project budget?<span class="plus" aria-hidden="true"></span></summary><p>Site access, changes in grade, the size of paved areas and material choices all shape the estimate. Add your priorities and a comfortable budget to your brief.</p></details>
+    </div></section>
+  </main>
+  <main class="garden-tour" id="terrace-garden" hidden aria-labelledby="terrace-garden-title">
+    <section class="tour-track" data-scroll-film aria-label="The Terrace House film">
+      <div class="tour-pin" data-pin>
+        <header class="tour-head">
+          <a class="tour-back" href="#gardens"><span aria-hidden="true">←</span> All gardens</a>
+          <h1 id="terrace-garden-title" tabindex="-1">The Terrace House</h1>
+          <a class="tour-jump" href="#terrace-garden-build">Materials &amp; build <span aria-hidden="true">↓</span></a>
+        </header>
+        <div class="tour-screen">
+          <video data-film-video data-copy="terrace-garden-film" width="1280" height="720" muted playsinline preload="none" aria-label="Pull back from a cedar living room over limestone terraces, olive trees and lavender."></video>
+        </div>
+        <div class="tour-controls">
+          <a class="scroll-cue" href="#terrace-garden-build"><span class="cue-arrow" aria-hidden="true">↓</span> Design details</a>
+          <label><span class="sr-only">The Terrace House film position</span><input data-film-range type="range" min="0" max="1000" value="0" aria-valuetext="Start of film"></label>
+          <button data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+        </div>
+      </div>
+    </section>
+    <article id="terrace-garden-build" class="tour-notes bounds" aria-labelledby="terrace-garden-design">
+      <p class="tour-project-name">The Terrace House</p>
+      <h2 id="terrace-garden-design" tabindex="-1">The design</h2>
+      <p class="tour-lead">A run of broad limestone steps follows the slope to the open cedar house. The stair bends at the lower landing, giving the olive tree room on one side and a deep, sunlit planting bed on the other.</p>
+      <section class="design-keyframes" aria-labelledby="terrace-garden-keyframes">
+        <h3 id="terrace-garden-keyframes">Terrace House keyframes</h3>
+        <div class="keyframe-grid">
+          <figure><img src="assets/terrace-frame-01-00s-fireplace.webp" width="672" height="378" loading="lazy" decoding="async" alt="A lit fireplace and pale hearth between a timber post and a table."><figcaption><strong>The hearth</strong> <small class="frame-time">0:00</small><p>The long stone hearth establishes the sightline back into the house from the upper landing.</p></figcaption></figure>
+          <figure><img src="assets/terrace-frame-02-03s-living-room.webp" width="672" height="378" loading="lazy" decoding="async" alt="A cream sofa and timber dining table sit under an exposed cedar ceiling."><figcaption><strong>The living room</strong> <small class="frame-time">0:03</small><p>The oak floor and exposed beams run toward the garden doors, with dining and seating on either side.</p></figcaption></figure>
+          <figure><img src="assets/terrace-frame-03-05s-threshold.webp" width="672" height="378" loading="lazy" decoding="async" alt="Open dark-framed doors viewed from the stone landing."><figcaption><strong>The upper landing</strong> <small class="frame-time">0:05</small><p>Pale limestone begins at the open doors, marking the change from the timber floor to the garden.</p></figcaption></figure>
+          <figure><img src="assets/terrace-frame-04-08s-limestone-steps.webp" width="672" height="378" loading="lazy" decoding="async" alt="Purple flowers and silver foliage flank a flight of pale steps."><figcaption><strong>The first flight</strong> <small class="frame-time">0:08</small><p>Broad limestone treads descend between low stone walls planted with lavender and sage.</p></figcaption></figure>
+          <figure><img src="assets/terrace-frame-05-11s-lower-landing.webp" width="672" height="378" loading="lazy" decoding="async" alt="A bending stair climbs toward the cedar house between mature trees."><figcaption><strong>The lower bend</strong> <small class="frame-time">0:11</small><p>The change in stair direction leaves a deep planting pocket at the inside of the turn.</p></figcaption></figure>
+          <figure><img src="assets/terrace-frame-06-15s-raised-garden-view.webp" width="672" height="378" loading="lazy" decoding="async" alt="The roof and two curved garden levels seen between the oak and olive."><figcaption><strong>The planted terraces</strong> <small class="frame-time">0:15</small><p>From above, the curved retaining walls show how the planting beds step down the slope.</p></figcaption></figure>
+        </div>
+      </section>
+      <div class="tour-columns">
+        <section><h3>Materials &amp; planting</h3><dl>
+          <div><dt>Limestone and fieldstone</dt><dd>Pale limestone treads catch the late light. Low, rough-faced stone walls trace the landings and hold the planting beds at different levels.</dd></div>
+          <div><dt>Cedar and shade</dt><dd>The warm timber façade meets the upper terrace at the open doors. The mature oak and silver-leaved olive frame the approach.</dd></div>
+          <div><dt>Planting palette</dt><dd>Lavender and sage sit close to the treads. Fine grasses rise behind them, bringing movement to the long edges of the stone.</dd></div>
+        </dl></section>
+        <section><h3>How it comes together</h3><ol>
+          <li>Walk the slope from the house to the lower path. Mark the landings and the bend around the trees before laying out the stair.</li>
+          <li>Set terrace levels and drainage, then form the low retaining walls. Fit the limestone treads so the upper landing meets the doorway cleanly.</li>
+          <li>Prepare the beds and irrigation before planting. Repeat lavender and sage along the stair and give the grasses room to spill toward the walls.</li>
+        </ol></section>
+      </div>
+      <details class="terrace-prompt">
+        <summary>Read the DaVinci animation prompt <span class="plus" aria-hidden="true"></span></summary>
+        <div class="terrace-prompt-body">
+          <p>Create one continuous, photorealistic 15-second reverse flyout of the Terrace House. Output 16:9 at 24 fps. Read the supplied six-frame storyboard from left to right across each row. Use the six images as camera-position anchors at 0, 3, 5, 8, 11 and 15 seconds. Start six metres inside the cedar house with the open doors behind the camera. Aim at the fireplace as the camera backs through the doorway. Once outside, keep the open doorway in view.</p>
+          <p><strong>0–3 seconds | Fireplace to living room</strong><br>Open tight on the lit fireplace and long pale stone hearth. A timber post fills the near left edge, a vase of olive branches sits to the left of the fire, and the corner of a timber table enters from the right. Dolly backward at eye level. The post slides past as the cream sofa appears on the left and the dining chairs and pendant lights appear on the right. Afternoon light crosses the oak floor beneath an exposed cedar ceiling.</p>
+          <p><strong>3–5 seconds | Through the doorway</strong><br>Continue backward through the already-open glass doors. The dark jambs enter from both sides and frame the distant fireplace. Cross the threshold in one smooth move. The interior oak floor recedes and the pale limestone upper landing enters the foreground. Hold the fireplace in view as in frame three.</p>
+          <p><strong>5–8 seconds | Upper landing to limestone steps</strong><br>Back across the landing and out above the first flight, looking uphill at the open doorway. Bring the fronts of the broad limestone treads into view from below. Low rough-faced stone walls border the steps. Purple lavender, silver sage and feathery golden grasses rise on both sides.</p>
+          <p><strong>8–11 seconds | The lower bend</strong><br>Follow the bend of the staircase backward toward the lower landing. Drift just enough sideways to match frame five: the stair climbs through the left half of the image and the house sits upper right. A broad oak canopy frames the left edge and a mature silver olive frames the right. Nearby grass heads cross the lens faster than the cedar façade moves in the distance.</p>
+          <p><strong>11–15 seconds | The elevated terrace reveal</strong><br>Continue retreating and rise into an oblique view. Tilt gently downward until the cedar roof and single chimney, open doorway, upper landing, curved limestone stairs and two planted terrace levels read together. Match frame six by 13.5 seconds, ease to a complete stop and hold that composition through the final frame.</p>
+          <p>Use a fixed 28 mm lens, consistent warm late-afternoon side light and a slight breeze in the grasses. Preserve the exact locations of the fireplace, doorway, staircase, stone walls, oak and olive. Render a single full-screen view throughout. Exclude cuts, digital zooms, captions, logos, watermarks, panel borders and end cards.</p>
+          <a href="assets/terrace-house-davinci-prompt.txt" download="Terrace-House-DaVinci-Prompt.txt">Download prompt (.txt)</a>
+        </div>
+      </details>
+      <button class="pill dark tour-brief" type="button" data-direction="The Terrace House">Use this in my brief <span aria-hidden="true">↗</span></button>
+    </article>
+  </main>
+  <main class="garden-tour" id="dining-courtyard" hidden aria-labelledby="dining-courtyard-title">
+    <section class="tour-track" data-scroll-film aria-label="The Dining Courtyard film">
+      <div class="tour-pin" data-pin>
+        <header class="tour-head">
+          <a class="tour-back" href="#gardens"><span aria-hidden="true">←</span> All gardens</a>
+          <h1 id="dining-courtyard-title" tabindex="-1">The Dining Courtyard</h1>
+          <a class="tour-jump" href="#dining-courtyard-build">Materials &amp; build <span aria-hidden="true">↓</span></a>
+        </header>
+        <div class="tour-screen">
+          <video data-film-video data-copy="dining-courtyard-film" width="1112" height="834" muted playsinline preload="none" aria-label="Move from the dining room past the pergola and olive tree to the curved stone bench."></video>
+        </div>
+        <div class="tour-controls">
+          <a class="scroll-cue" href="#dining-courtyard-build"><span class="cue-arrow" aria-hidden="true">↓</span> Design details</a>
+          <label><span class="sr-only">The Dining Courtyard film position</span><input data-film-range type="range" min="0" max="1000" value="0" aria-valuetext="Start of film"></label>
+          <button data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+        </div>
+      </div>
+    </section>
+    <article id="dining-courtyard-build" class="tour-notes bounds" aria-labelledby="dining-courtyard-design">
+      <p class="tour-project-name">The Dining Courtyard</p>
+      <h2 id="dining-courtyard-design" tabindex="-1">The design</h2>
+      <p class="tour-lead">The dining table sits just outside the kitchen doors, where pergola slats cast long bands of shade. A curved path slips past the olive tree and opens into a second, quieter gathering space around a built-in bench.</p>
+      <section class="design-keyframes" aria-labelledby="dining-courtyard-keyframes">
+        <h3 id="dining-courtyard-keyframes">Dining Courtyard keyframes</h3>
+        <div class="keyframe-grid">
+          <figure><img src="assets/dining-courtyard-keyframe-1.webp" width="672" height="378" loading="lazy" decoding="async" alt="A shaded living room opens onto a sunlit courtyard with an olive tree."><figcaption><strong>The view from indoors</strong><p>The open doorway frames the olive tree and gives the walk into the courtyard a clear destination.</p></figcaption></figure>
+          <figure><img src="assets/dining-courtyard-keyframe-2.webp" width="672" height="378" loading="lazy" decoding="async" alt="The doorway opens onto stone paving beside the timber dining table."><figcaption><strong>Across the threshold</strong><p>Pale paving connects the doorway to the outdoor table, with room to pass beside the chairs.</p></figcaption></figure>
+          <figure><img src="assets/dining-courtyard-keyframe-3.webp" width="672" height="378" loading="lazy" decoding="async" alt="Slatted pergola beams shade the table at the left of the courtyard."><figcaption><strong>Under the pergola</strong><p>Timber slats cast bands of shade over the table and mark the edge of the dining space.</p></figcaption></figure>
+          <figure><img src="assets/dining-courtyard-keyframe-4.webp" width="672" height="378" loading="lazy" decoding="async" alt="A curved path passes an olive trunk, ornamental grasses and purple flowers."><figcaption><strong>Around the olive</strong><p>The path bends around the trunk. Low planting along the inside of the curve leaves the stone bench in view.</p></figcaption></figure>
+          <figure><img src="assets/dining-courtyard-keyframe-5.webp" width="672" height="378" loading="lazy" decoding="async" alt="A pale cushioned seat curves along the paving with the pergola beyond."><figcaption><strong>The seating circle</strong><p>The curved stone seat turns conversation inward and gives a view back toward the dining terrace.</p></figcaption></figure>
+          <figure><img src="assets/dining-courtyard-keyframe-6.webp" width="672" height="378" loading="lazy" decoding="async" alt="The dining terrace and rounded seating court seen from above."><figcaption><strong>The courtyard plan</strong><p>The elevated view shows how the path links two gathering places around the same tree.</p></figcaption></figure>
+        </div>
+      </section>
+      <div class="tour-columns">
+        <section><h3>Materials &amp; planting</h3><dl>
+          <div><dt>Paving</dt><dd>Pale limestone slabs give the dining table a level surface. Smaller cuts follow the bend toward the seating circle.</dd></div>
+          <div><dt>Timber and stone</dt><dd>Warm timber posts and slats frame the dining terrace. Buff stacked-stone facing wraps the curved bench, with loose outdoor cushions along its inside edge.</dd></div>
+          <div><dt>Planting</dt><dd>A multi-stem olive anchors the turn in the path. Ornamental grasses, low shrubs and purple flowering perennials soften the stone edges.</dd></div>
+        </dl></section>
+        <section><h3>How it comes together</h3><ol>
+          <li>Lay out the dining area from the open doors. Mark the path and seating circle around the olive, leaving room to pull out chairs and walk behind them.</li>
+          <li>Set the terrace levels and drainage, then prepare the paving base. Establish the pergola posts and seat wall before fitting the limestone around their edges.</li>
+          <li>Finish the slatted pergola and bench, install irrigation, and plant outward from the olive in loose groups. Add the table and cushions once the stonework is complete.</li>
+        </ol></section>
+      </div>
+      <button class="pill dark tour-brief" type="button" data-direction="The Dining Courtyard">Use this in my brief <span aria-hidden="true">↗</span></button>
+    </article>
+  </main>
+  <main class="garden-tour" id="forest-house" hidden aria-labelledby="forest-house-title">
+    <section class="tour-track" data-scroll-film aria-label="The Forest House film">
+      <div class="tour-pin" data-pin>
+        <header class="tour-head">
+          <a class="tour-back" href="#gardens"><span aria-hidden="true">←</span> All gardens</a>
+          <h1 id="forest-house-title" tabindex="-1">The Forest House</h1>
+          <a class="tour-jump" href="#forest-house-build">Materials &amp; build <span aria-hidden="true">↓</span></a>
+        </header>
+        <div class="tour-screen">
+          <video data-film-video data-copy="forest-house-film" width="1280" height="720" muted playsinline preload="none" aria-label="Rise from the cedar house over a woodland lawn and reflecting pond."></video>
+        </div>
+        <div class="tour-controls">
+          <a class="scroll-cue" href="#forest-house-build"><span class="cue-arrow" aria-hidden="true">↓</span> Design details</a>
+          <label><span class="sr-only">The Forest House film position</span><input data-film-range type="range" min="0" max="1000" value="0" aria-valuetext="Start of film"></label>
+          <button data-film-play type="button">Play 20 sec <span aria-hidden="true">▶</span></button>
+        </div>
+      </div>
+    </section>
+    <article id="forest-house-build" class="tour-notes bounds" aria-labelledby="forest-house-design">
+      <p class="tour-project-name">The Forest House</p>
+      <h2 id="forest-house-design" tabindex="-1">The design</h2>
+      <p class="tour-lead">The view begins at the hearth and runs the length of a still reflecting pond. A rectangular lawn keeps the center open. At its edges, layered planting carries the eye from the low terrace to the taller woodland canopy.</p>
+      <section class="design-keyframes" aria-labelledby="forest-house-keyframes">
+        <h3 id="forest-house-keyframes">Forest House keyframes</h3>
+        <div class="keyframe-grid">
+          <figure><img src="assets/forest-house-keyframe-1.webp" width="672" height="378" loading="lazy" decoding="async" alt="A dark timber post frames the dining table and a pale fireplace."><figcaption><strong>The hearth</strong><p>The pale fireplace gives the eye a fixed point as the view moves back through the darker cedar interior.</p></figcaption></figure>
+          <figure><img src="assets/forest-house-keyframe-2.webp" width="672" height="378" loading="lazy" decoding="async" alt="Wide cedar ceiling beams span the living room and dining area."><figcaption><strong>The open living room</strong><p>The open span between timber posts gives the seating area an uninterrupted view out to the garden.</p></figcaption></figure>
+          <figure><img src="assets/forest-house-keyframe-3.webp" width="672" height="378" loading="lazy" decoding="async" alt="Gray terrace steps below the open cedar façade, with white flowers on the left."><figcaption><strong>The stone threshold</strong><p>Broad gray steps carry the line of the open doorway down to the lawn.</p></figcaption></figure>
+          <figure><img src="assets/forest-house-keyframe-4.webp" width="672" height="378" loading="lazy" decoding="async" alt="A bridge spans dark water between the mown lawn and red maple."><figcaption><strong>The pond crossing</strong><p>A low timber bridge crosses the narrow reflecting pond beside the red maple.</p></figcaption></figure>
+          <figure><img src="assets/forest-house-keyframe-5.webp" width="672" height="378" loading="lazy" decoding="async" alt="Ferns and clipped pines border a rectangular lawn and a long pond."><figcaption><strong>The woodland border</strong><p>Ferns and low pines soften the lawn edge, while the straight pond coping holds a clear line toward the house.</p></figcaption></figure>
+          <figure><img src="assets/forest-house-keyframe-6.webp" width="672" height="378" loading="lazy" decoding="async" alt="An elevated view of the cedar house, central lawn, reflecting pond and surrounding trees."><figcaption><strong>The garden from above</strong><p>The lawn and pond run side by side. Taller trees enclose them while leaving the view to the house open.</p></figcaption></figure>
+        </div>
+      </section>
+      <div class="tour-columns">
+        <section><h3>Materials &amp; planting</h3><dl>
+          <div><dt>Timber and paving</dt><dd>The exposed timber ceiling and dark wood exterior meet a terrace of large gray stone slabs. The paving carries the doorway line out to the lawn.</dd></div>
+          <div><dt>Water and stone</dt><dd>Straight stone coping defines a long, narrow pond. A crossing near the house connects the terrace to the planted bank, where larger boulders break up the straight edge.</dd></div>
+          <div><dt>Woodland planting</dt><dd>A red-leaved Japanese maple marks the terrace. Sculptural pines, white-flowering shrubs, ferns and fine grasses form layers beneath the taller trees.</dd></div>
+        </dl></section>
+        <section><h3>How it comes together</h3><ol>
+          <li>Align the pond and lawn with the main opening in the house. Set out the terrace, crossing and garden edges around the established trees.</li>
+          <li>Form the pond basin and plan its circulation, overflow and maintenance access. Fit the liner and coping, then complete the crossing and lay the terrace paving.</li>
+          <li>Grade the lawn and place the boulders before planting. Anchor the beds with maples and pines, then fill the edges with shrubs, grasses and ferns to soften the transition into the woods.</li>
+        </ol></section>
+      </div>
+      <button class="pill dark tour-brief" type="button" data-direction="The Forest House">Use this in my brief <span aria-hidden="true">↗</span></button>
+    </article>
+  </main>
+  <footer><div class="bounds footer-wrap"><a href="#top" aria-label="Century Landscapes home"><img src="assets/wordmark.webp" width="192" height="65" alt="Century Landscapes"></a><p>© 2026 Century Landscapes</p><a class="footer-email" href="mailto:artur@momentum-tennis.com">artur@momentum-tennis.com</a><a class="backtop" href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+  <dialog id="project-dialog" aria-labelledby="project-title"><button class="close" aria-label="Close project brief">×</button><div class="dialog-copy"><p class="eyebrow"><span class="rule"></span> Project planner</p><h2 id="project-title">Your outdoor space.</h2><p id="form-description">Tell us about your space. Your email app will open with a project inquiry addressed to <a href="mailto:artur@momentum-tennis.com">artur@momentum-tennis.com</a>.</p>
+    <form id="project-form"><div class="form-pair"><label>Your name<input name="name" autocomplete="name" required maxlength="100"></label><label>Project city<input name="city" autocomplete="address-level2" required maxlength="100"></label></div>
+    <label>Design direction<select name="direction"><option>Open to ideas</option><option>The Terrace House</option><option>The Dining Courtyard</option><option>The Forest House</option></select></label>
+    <label>What would you like to change?<textarea name="goals" required rows="3" maxlength="1500" placeholder="A shady place for dinner, a better path to the house…"></textarea></label>
+    <div class="inquiry-actions"><button type="submit" class="pill dark" id="brief-action">Open email draft <span aria-hidden="true">↗</span></button><button type="button" class="save-brief" id="save-brief">Download a copy</button></div><p class="form-status" role="status"></p></form>
+  </div></dialog>
+</body>
+</html>
